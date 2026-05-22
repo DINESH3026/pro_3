@@ -1,0 +1,68 @@
+.navbarcontainer{
+    display: flex;
+    padding:25px;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.imgandtext{
+    font-weight: bolder;
+    display: flex;
+    align-items: center;
+    gap:10px;
+}
+.imgandtext img{
+    border-radius: 3px;
+}
+.secondcontainernav{
+    display:flex;
+    align-items: center;
+    gap:40px;
+}
+.nameandlogout{
+    display: flex;
+    gap:15px;
+
+}
+.nameandlogout button{
+    background: transparent;
+    color:hsl(0, 0%, 60%);
+    border:none;
+    cursor:pointer;
+}
+.nameandlogout button:hover{
+    color:white;
+}
+.nameandlogout p{
+    font-size: small;
+    background-color: hsl(0, 0%, 20%);
+    padding:9px;
+    border-radius: 50%;
+    border:1px solid grey;
+}
+.teaorstu button{
+    background: transparent;
+    border:none;
+    cursor:pointer;
+    padding:10px;
+    
+}
+.teaorstu button a{
+    color:hsl(0, 0%, 60%);
+    padding:0px 10px;
+    text-decoration: none;
+}
+.teaorstu button a:hover{
+    color:white;
+}
+.teaorstu .active{
+    background-color: hsl(0, 0%, 18%);
+    border-radius: 10px;
+}
+.nameandlogout button a{
+    text-decoration: none;
+    color:hsl(0, 0%, 60%);
+}
+.nameandlogout button a:hover{
+    color:white;
+}

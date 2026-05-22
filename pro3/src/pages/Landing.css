@@ -1,0 +1,28 @@
+.landingcontainer{
+    padding:25px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.twobuttonlandingpage button{
+    background-color: transparent;
+    border:none
+}
+.twobuttonlandingpage button a{
+    text-decoration: none;
+    color:hsl(0, 0%, 60%);
+    padding: 5px 10px;
+    border-radius:10px;
+}
+.twobuttonlandingpage button a:hover{
+    color: white;
+}
+.twobuttonlandingpage .okay{
+    background-color: blueviolet;
+    padding: 8px 2px;
+    border-radius: 8px;
+}
+.twobuttonlandingpage .okay:hover{
+    background-color: hsl(271, 76%, 53%);
+
+}
