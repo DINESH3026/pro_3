@@ -1,14 +1,47 @@
 import {Link} from "react-router-dom"
 import AppLayout from "../components/AppLayout";
+import './Login.css'
+import logo from '../assets/image4.png'
+import {useState} from 'react'
+import tea from '../assets/school.png'
+import stu from '../assets/student.png'
 const Login=()=>{
+    const [login,setlogin]=useState("teacher");
+    const hello=()=>{
+        setlogin("teacher")
+    }
+    const hi=()=>{
+        setlogin("student")
+    }
     return(
-        <AppLayout>
-            <div>
-                <p>Login page</p>
-                <Link to="/student">Student dashboard</Link>
-                <Link to="/teacher">Teacher Dashboard</Link>
+        <div className="wholecontainerlogin">
+            <div className="logoandtextlogin">
+                <img className='imglogin' src={logo} width="25px" height="25px" />
+                <p>TaskFlow</p>
             </div>
-        </AppLayout>
+            <div className="formlogin">
+                <div className="textlogin">
+                    <p style={{fontWeight:"bolder",fontSize:"30px"}}>Welcome Back</p>
+                    <p>Sign in to continue to your dashboard</p>
+                </div>
+                <div className="twobuttonlogin">
+                    <button style={{backgroundColor:login==="teacher"?"hsl(239.57,95.92%,71.18%)":""}} onClick={hello}><img src={tea} width="10px" height="10px" />Teacher</button>
+                    <button style={{backgroundColor:login==="student"?"hsl(239.57,95.92%,71.18%)":""}} onClick={hi}> <img src={stu} width="10px" height="10px"/>Student</button>
+                </div>
+                <div className="inputlogin">
+                    <p>Email</p>
+                    <input placeholder="24___.__@rmkec.ac.in" />
+                    <p>Password</p>
+                    <input placeholder="*******" type="password" />
+                </div>
+                <div className="signinasteacherorstudent">
+                    <button>{login==="teacher"?<Link to="/teacher">Sign in as Teacher </Link>:<Link to="/student">Sign in as Student</Link>}</button>
+                </div>
+            </div>
+        </div>
+        
+           
+        
         
     );
 }
