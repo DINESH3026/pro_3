@@ -1,5 +1,5 @@
 .topcontainerlanding{
-    padding:25px;
+    padding:20px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -16,6 +16,7 @@
 }
 .twobuttonlandingpage button a:hover{
     color: white;
+
 }
 .twobuttonlandingpage .okay{
     background-color: hsl(239.57,95.92%,71.18%);
@@ -23,21 +24,21 @@
     border-radius: 8px;
 }
 .twobuttonlandingpage .okay:hover{
-    background-color: hsl(239.57,90.92%,71.18%);
+    background-color: hsla(240, 91%, 71%, 0.886);
 
 }
 .bottomcontainerlanding{
-    background:linear-gradient(to bottom,#131222,black);
+    background:linear-gradient(to bottom,hsl(244, 81%, 10%),black);
     display: flex;
     align-items: center;
     justify-content: center;
-    min-height: 100vh;
+    min-height: 80vh;
     flex-direction: column;
 }
 .loandtex{
     display:flex;
     align-items: center;
-    border: 1px solid lightgrey;
+    border: 1px solid rgba(211, 211, 211, 0.123);
     border-radius: 10px;
     padding:5px;
     font-size: small;
