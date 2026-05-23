@@ -21,17 +21,17 @@ const Login=()=>{
             </div>
             <div className="formlogin">
                 <div className="textlogin">
-                    <p style={{fontWeight:"bolder",fontSize:"30px"}}>Welcome Back</p>
+                    <p style={{fontWeight:"bolder",fontSize:"30px",textAlign:"center"}}>Welcome Back</p>
                     <p>Sign in to continue to your dashboard</p>
                 </div>
                 <div className="twobuttonlogin">
-                    <button style={{backgroundColor:login==="teacher"?"hsl(239.57,95.92%,71.18%)":""}} onClick={hello}><img src={tea} width="10px" height="10px" />Teacher</button>
-                    <button style={{backgroundColor:login==="student"?"hsl(239.57,95.92%,71.18%)":""}} onClick={hi}> <img src={stu} width="10px" height="10px"/>Student</button>
+                    <button style={{backgroundColor:login==="teacher"?"hsl(239.57,95.92%,71.18%)":""}} onClick={hello}><img src={tea} width="15px" height="15px" />Teacher</button>
+                    <button style={{backgroundColor:login==="student"?"hsl(239.57,95.92%,71.18%)":""}} onClick={hi}> <img src={stu} width="15px" height="15px"/>Student</button>
                 </div>
                 <div className="inputlogin">
-                    <p>Email</p>
+                    <p style={{marginBottom:"10px",fontSize:"13px"}}>Email</p>
                     <input placeholder="24___.__@rmkec.ac.in" />
-                    <p>Password</p>
+                    <p style={{marginBottom:"10px",fontSize:"13px"}}>Password</p>
                     <input placeholder="*******" type="password" />
                 </div>
                 <div className="signinasteacherorstudent">
