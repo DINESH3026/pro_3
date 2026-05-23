@@ -18,7 +18,7 @@ const Navbar=()=>{
             </div>
             <div className="nameandlogout">
                 <p className='name'>JD</p>
-                <button><Link to="/login">Sign out</Link></button>
+                <button><Link to="/">Sign out</Link></button>
             </div>
         </div>
     );

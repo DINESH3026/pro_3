@@ -1,4 +1,4 @@
-.landingcontainer{
+.topcontainerlanding{
     padding:25px;
     display: flex;
     align-items: center;
@@ -10,7 +10,7 @@
 }
 .twobuttonlandingpage button a{
     text-decoration: none;
-    color:hsl(0, 0%, 60%);
+    color:hsl(0, 0%, 90%);
     padding: 5px 10px;
     border-radius:10px;
 }
@@ -18,11 +18,37 @@
     color: white;
 }
 .twobuttonlandingpage .okay{
-    background-color: blueviolet;
+    background-color: hsl(239.57,95.92%,71.18%);
     padding: 8px 2px;
     border-radius: 8px;
 }
 .twobuttonlandingpage .okay:hover{
-    background-color: hsl(271, 76%, 53%);
+    background-color: hsl(239.57,90.92%,71.18%);
+
+}
+.bottomcontainerlanding{
+    background:linear-gradient(to bottom,#131222,black);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    flex-direction: column;
+}
+.loandtex{
+    display:flex;
+    align-items: center;
+    border: 1px solid lightgrey;
+    border-radius: 10px;
+    padding:5px;
+    font-size: small;
+    gap:10px;
+    margin-bottom: 30px;
+}
+.loandtex img{
+    border-radius: 10px;
+}
+.twotext{
+    text-align: center;
+    margin-bottom: 30px;
 
 }
