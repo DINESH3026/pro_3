@@ -1,8 +1,6 @@
-body{
-    background:linear-gradient(to bottom,hsl(244, 81%, 10%),black);
-   
-}
+
 .wholecontainerlogin{
+    background:linear-gradient(to bottom,hsl(244, 81%, 10%),black);
     display: flex;
     flex-direction: column;
     align-items: center;

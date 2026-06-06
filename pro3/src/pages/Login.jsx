@@ -1,5 +1,4 @@
 import {Link} from "react-router-dom"
-import AppLayout from "../components/AppLayout";
 import './Login.css'
 import logo from '../assets/image4.png'
 import {useState} from 'react'
