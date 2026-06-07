@@ -15,6 +15,12 @@ const Student=()=>{
             Percent=students[i].percent
         }
     }
+    let overduecount=0;
+    for(let i=0;i<tasks.length;i++){
+        if(tasks[i].status==="overdue"){
+            overduecount++;
+        }
+    }
     let pendingwork=totaltask-taskcompleted;
     const [status,setstatus]=useState("All");
     const fillteredtasks=status==="All"?tasks:tasks.filter(task=>task.status===status.toLowerCase());
@@ -44,7 +50,7 @@ const Student=()=>{
                         </div>
                         <div className="overdue">
                             <p>Overdue</p>
-                            <p style={{fontSize:"40px"}}>0</p>
+                            <p style={{fontSize:"40px"}}>{overduecount}</p>
                         </div>
                     </div>
                     
@@ -61,7 +67,7 @@ const Student=()=>{
                             </div>
                             <div className="hellooo">
                                 {fillteredtasks.map(task=>{
-                                return <Taskcard task={task}/>
+                                return <Taskcard key={task.id} task={task}/>
                             })}
                             </div>
                         </div>

@@ -13,7 +13,7 @@ const Taskcard=({task})=>{
                         </div>
                     </div>
                     <div className="due">
-                        <p>Due in {task.dueInDays}d</p>
+                        {task.dueInDays>0?(<p>Due in {task.dueInDays}d</p>):(<p>{Math.abs(task.dueInDays)}d OverDue </p>)}
                     </div>
                 </div>
                 <div className="systemarch">
