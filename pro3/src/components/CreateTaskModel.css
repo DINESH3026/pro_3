@@ -1,0 +1,143 @@
+.wholeconataninerCreatetaskmodel{
+    position: fixed ;    
+    background: rgba(0,0,0,0.8);
+    z-index: 1000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:100%;
+}
+.insidecont{
+    border: 1px solid rgba(128, 128, 128, 0.16);
+    border-radius: 20px;
+    padding:30px;
+    width:550px;
+    background-color: rgba(128, 128, 128, 0.269);
+}
+.creatandcross{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.creatandcross button{
+    background:transparent;
+    color:grey;
+    border: none;
+    cursor: pointer;
+}
+.creatandcross p{
+    font-size: 18px;
+    font-weight: bolder;
+ 
+}
+.titleclass{
+    width:100%;
+    padding:10px 10px;
+    border-radius: 10px ;
+    border: 1px solid transparent;
+    background-color: black ;
+    margin-top: 6px;
+    margin-bottom: 14px;
+    outline: none;
+}
+.titleclass:focus{
+    border-color: hsla(240, 91%, 71%, 0.886);
+}
+.descriotpnclass{
+    width:100%;
+    padding:10px 10px;
+    border-radius: 10px ;
+    border: 1px solid transparent;
+    background-color: black ;
+    margin-top: 6px;
+    margin-bottom: 14px;
+    outline: none;
+    color:white;
+}
+.descriotpnclass:focus{
+    border-color: hsla(240, 91%, 71%, 0.886);
+
+}
+
+.subandprp{
+    display: flex;
+    gap:10px;
+    margin-bottom: 25px;
+}
+.subb{
+    margin-bottom: 10px;
+    width:50%;
+}
+.okkkkkke{
+    width:100%;
+    height:fit-content;
+    border-radius: 10px ;
+    border: 1px solid transparent;
+    background-color: black ;
+    margin-top: 6px;
+    margin-bottom: 14px;
+    outline: none;
+    padding:0px 10px;
+    color:white;
+
+}
+.okkkkkke:focus{
+    border-color: hsla(240, 91%, 71%, 0.886);
+
+}
+.prr{
+    margin-bottom: 10px;
+    width:50%;
+}
+.ooo{
+    width:100%;
+    height:fit-content;
+    border-radius: 10px ;
+    border: 1px solid transparent;
+    background-color: black ;
+    margin-top: 6px;
+    margin-bottom: 14px;
+    outline: none;
+    color:grey;
+}
+.ooo:focus{
+    border-color: hsla(240, 91%, 71%, 0.886);
+
+}
+.babbb{
+    width:100%;
+    padding:10px 10px;
+    border-radius: 10px ;
+    border: 1px solid transparent;
+    background-color: black ;
+    margin-top: 6px;
+    margin-bottom: 14px;
+    outline: none;
+    color:grey;
+}
+.babbb:focus{
+    border-color: hsla(240, 91%, 71%, 0.886);
+}
+.twobutt{
+    display: flex;
+    justify-content: right;
+    gap:10px;
+}
+.bbbbb{
+    padding:12px;
+    border: none;
+    background: transparent;
+    color:white;
+    border-radius: 10px;
+    cursor: pointer;
+    border:1px solid rgba(128, 128, 128, 0.356);
+}
+.sdfgh{
+    padding:12px;
+    border: none;
+    background: hsla(240, 91%, 71%, 0.886);
+    color:white;
+    border-radius: 10px;
+    cursor: pointer;
+    border:1px solid rgba(128, 128, 128, 0.356);
+}

@@ -90,4 +90,29 @@
 .leftgraph{
     width:65%;
 }
+.pendingandinprofresscontainer{
+    width:75%;
+    display: flex;
+    gap:20px;
+}
+
+.kanancontainerforpending{
+    width:50%;
+}
+.textforthis{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+.roundnumber{
+    height:20px;
+    width: 20px;
+    text-align: center;
+    background-color: rgba(128, 128, 128, 0.253);
+    border-radius: 50%;
+    padding:5px;
+    font-size: 10px;
+    
+}
+
 

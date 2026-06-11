@@ -1,0 +1,61 @@
+.totalconatiner{
+    border:1px solid rgba(128, 128, 128, 0.306);
+    border-radius: 15px;
+    width:100%;
+    background-color: rgba(128, 128, 128, 0.089);
+    padding:15px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.totalconatiner:hover{
+    border: 1px solid hsla(240, 91%, 71%, 0.886);
+}
+.firstline{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+.prio{
+    border:1px solid rgba(128, 128, 128, 0.162);
+    border-radius: 5px;
+    padding:3px;
+    font-weight:bolder ;
+    font-size: 10px;
+    color:hsla(240, 91%, 71%, 0.886);
+    background-color: hsla(240, 91%, 71%, 0.135);
+}
+.dueinday{
+    font-size: 10px;
+    color:grey;
+}
+.algori{
+    font-size: 12px;
+    padding:3px;
+    border-radius: 5px;
+    border:1px solid rgba(255, 255, 255, 0.009);
+    background-color: rgba(128, 128, 128, 0.189);
+    width:max-content;
+    margin-bottom: 10px;
+}
+.linebelowit{
+    height:1px;
+    width:100%;
+    background-color: rgba(128, 128, 128, 0.365);
+    margin-bottom: 15px;
+}
+.percentdone{
+    font-size: 13px;
+
+}
+.progressforthekabancard{
+    width:100%;
+    height:5px;
+    background-color: rgba(128, 128, 128, 0.315);
+    border-radius: 8px;
+    margin-top: 10px;
+    
+}
+.innerprogresslinekanban{
+    background-color: hsla(240, 91%, 71%, 0.886);
+    border-radius: 8px;
+}
